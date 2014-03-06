@@ -18,7 +18,7 @@ random_number = raw_input("Random number: ")
 lucky_number = raw_input("Your lucky number: ")
 
 """
-Float
+Float - year of birth
 """
 
 def year_of_birth(age, this_year):
@@ -29,7 +29,16 @@ actual_year = 2014
 
 year = year_of_birth(int(your_age), actual_year)
 
-print year
 
+"""
+Array - Pizzas
+"""
 
+pizzas = ["pepperoni", "meat lovers", "vegetarian"]
+
+"""
+Dictionary
+"""
+languages = dict()
+languages = {"spanish":"hola", "english":"hello", "french":"bonjour"}
 
