@@ -6,19 +6,19 @@ Arturo Alquicira
 
 # First Function
 
-# width = raw_input("Width: ")
-# height = raw_input("Height: ")
-#
-# def calcArea(w, h):
-#     a = w*h
-#     return a
-#
-# area = calcArea(int(width), int(height))
-#
-# if width == height:
-#     print "The area of your square is " + str(area) + " square feet."
-# else:
-#     print "The area of your rectangle is " + str(area) + " square feet."
+width = raw_input("Width: ")
+height = raw_input("Height: ")
+
+def calcArea(w, h):
+    a = w*h
+    return a
+
+area = calcArea(int(width), int(height))
+
+if width == height:
+    print "The area of your square is " + str(area) + " square feet."
+else:
+    print "The area of your rectangle is " + str(area) + " square feet."
 
 
 # Loop
